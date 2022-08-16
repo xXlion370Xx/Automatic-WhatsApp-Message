@@ -9,7 +9,7 @@ public class WhatsAppPage extends PageObject {
 
     //To search the contact on the whatsapp page list contact
     //Replace the word "Your contact here" to your whatsapp contact
-    By contact = By.xpath("//*[text()='Your contact here']");
+    By contact = By.xpath("//span[contains(@title, 'Your contact here')]");
 
     //To select the text area chat
     By chat = By.xpath("//div[@class='p3_M1']");
